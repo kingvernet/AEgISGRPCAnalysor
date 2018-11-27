@@ -1,0 +1,17 @@
+<config>
+	<slcio>
+		<pathFiles>/wingroup/aegis/data/GRPC/slcio/</pathFiles>
+	</slcio>
+	<root>
+		<pathFiles>/wingroup/aegis/data/GRPC/root/</pathFiles>
+	</root>
+    <chamber id="1">
+        <dif difId="68" x="30.0" y="50.0" z="1.0"/>
+    </chamber>
+    <chamber id="2">
+        <dif difId="112" x="30.0" y="50.0" z="2.0"/>
+    </chamber>
+    <chamber id="3">
+        <dif difId="104" x="30.0" y="50.0" z="3.0"/>
+    </chamber>
+</config>
