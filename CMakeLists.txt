@@ -37,7 +37,7 @@ IF(EXISTS "${CMAKE_CURRENT_SOURCE_DIR}/bin/xml")
    MESSAGE("Folder are created yet")
 ELSE()
    message("Copying analysis, data, xml folder ...")
-   file(COPY ${CMAKE_CURRENT_SOURCE_DIR}/src/analysis ${CMAKE_CURRENT_SOURCE_DIR}/src/data ${CMAKE_CURRENT_SOURCE_DIR}/src/xml DESTINATION ${CMAKE_CURRENT_SOURCE_DIR}/bin)
+   file(COPY ${CMAKE_CURRENT_SOURCE_DIR}/src/analysis ${CMAKE_CURRENT_SOURCE_DIR}/src/xml DESTINATION ${CMAKE_CURRENT_SOURCE_DIR}/bin)
 ENDIF()
 
 FILE(COPY ${CMAKE_CURRENT_SOURCE_DIR}/src/LCIO/src/cpp/include/ DESTINATION ${PROJECT_INCLUDE_DIR})
